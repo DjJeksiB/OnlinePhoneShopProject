@@ -1,0 +1,99 @@
+<!Doctype HTML>
+<html>
+<head>
+<title>Best Phone In Bulgaria</title>
+<link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' href='Des.css' type= 'text/css' >
+<link rel='stylesheet' href='contacta.css' type= 'text/css' >
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+<header>
+            <div class="module lr">
+                <p  id="2" class="TextHead">Online Shop For Best Phones.</p>
+              </div>
+            </header>
+			<nav><div class="navi">
+      
+        <ul>
+            <li  class="liLogo"><div class="container">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <h3 class="animate-charcter"> Phone Shop</h3>
+                  </div>
+                </div>
+              </div></a></li>
+            <li><a href="#4">Contact</a></li>
+            <li><a href="#3">About</a></li>
+            <li><a href="#2">Product</a></li>
+            
+        </ul>
+    </div></nav>
+    
+    <section id="4" class="Contacta">
+        <br>
+        <br>
+        <form  name="AddProduct" method="post" action="BillAdd.php" enctype="multipart/form-data">
+            <div class="Bill-Form">
+          <div class="title">Add Your Bill</div>
+          <div class="subtitle">Your Opinion is imptortant to us!</div>
+          <div class="input-container ic1">
+            <input id="name" name="ProductName" class="input" type="text" placeholder="Product Name " />
+            <div class="cut"></div>
+          </div>
+          <div class="input-container ic2">
+            <input id="code" name="ProductCode" class="input" type="text" placeholder="Short Name Of Product " />
+            <div class="cut"></div>
+          </div>
+          <div class="input-container ic2">
+            <input id="price" name="ProductPrice" class="input" type="text" placeholder="Your price" />
+            <div class="input-container ic2">
+                <input type="file" id="image" name="ProductImage" class="input">
+            <div class="cut cut-short"></div>
+            
+          </div>
+          <button type="text" class="submit">submit</button>
+        </div>
+    </form>
+          
+    </section>
+<footer class="foot">
+  <div class="ko">
+    <div class="footer-content">
+        <h3><b>Foolish Developer<b></h3>
+        <p><b>Mate by Valentin Valeriev.Studing Software Engenering at VTU Veliko Turnovo. Date 23.2.2023@</b></p>
+        
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+    </div>
+</div>
+    </footer>
+    </body>
+    </html>
